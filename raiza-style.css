@@ -1,0 +1,18 @@
+*{
+	margin: 0px;
+	padding: 0px
+}
+
+body{
+	background: #ffffff;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	color: #5c5e5e;
+}
+
+#header-nav{
+	background: #ffffff;
+	border-radius: 0;
+	border: 0;
+	margin-bottom: 2px #5c5e5e;
+}
