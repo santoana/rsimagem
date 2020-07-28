@@ -29,8 +29,14 @@ h1{
 	font-weight: 600;
 	font-size: 28px;
 }
-
+nav{
+border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-color: #b6b6b6;
+	width: 100% !important;
+	color: #757878; 
 }
+
 
 .teste{
 	align-content: center;
@@ -39,8 +45,24 @@ h1{
 	max-width: 100%;
 }
 
+.navbar-toggler-icon{
+	border-color: #b6b6b6;
+	border-style: solid;
+	border-width: 1px;
+	color: #757878;
+	font-size: 26px;
+}
+.navbar-toggler-icon:hover {
+		color: #8ccfd9;
+	font-size: 22px;
+	
+
+}
+.navbar-toggler{
+	right: 10%;
+}
+
  .navbar-nav.navbar-center { 
- 	margin-top: 150px;
     position: absolute; 
     left: 50%; 
     text-align: center;
@@ -74,9 +96,18 @@ h1{
 
 .active{
 
-	color: #757878;
+	color: #757878 !important;
 	font-weight: bold;
 	border-color: white !important;
+	font-size: 22px;
+}
+
+.active1{
+
+	color: #757878 !important;
+	font-weight: bold;
+	border-color: white !important;
+	font-size: 22px !important;
 }
 
 .nav-item{
@@ -90,7 +121,8 @@ h1{
 .dropdown-menu { 
 	box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important; 
     margin-top: 0px !important; 
-    width: 100% !important; 
+    text-align: center;
+    left: 42%;
 } 
 
 .logo{
@@ -102,13 +134,57 @@ h1{
 
 }
 .ajuste{
-	padding-left: 10px;
+	padding-left: 3px;
 }
 .acima{
-	padding-top: 20px;
+	padding-top: 25px;
 }
 .abaixo{
 	padding-bottom: : 200px;
 }
 
+//! Dispositivos extra small (telefones em modo retrato, com menos de 576px!//
+@media (max-width: 575.98px) { 
+	.navbar-nav.navbar-center { 
 
+ }
+ .ajuste{
+	padding-top: : 10px;
+}
+
+/* Dispositivos small (telefones em modo paisagem, com 576px ou mais)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.navbar-nav.navbar-center { 
+
+ }
+  	.ajuste{
+	padding-top: : 10px;
+}
+}
+
+/* Dispositivos médios (tablets com 768px ou mais)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.navbar-nav.navbar-center { 
+		margin-top: 150px !important;
+ }
+ 	.ajuste{
+	padding-top: : 10px;
+}
+
+}
+
+/* Dispositivos large (desktops com 992px ou mais)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.navbar-nav.navbar-center { 
+		margin-top: 150px !important;
+ }
+
+}
+
+/* Dispositivos extra large (desktops grandes com 1200px ou mais)*/
+@media (min-width: 1200px) {
+	.navbar-nav.navbar-center { 
+		margin-top: 150px !important;
+ }
+
+}
