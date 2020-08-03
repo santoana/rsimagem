@@ -13,6 +13,14 @@ body{
 	color: #757878;
 	
 }
+.umm{
+	background-color: red;
+	height: 100%;
+	width: 30px;
+
+}
+
+
 .row{
 	padding-top: 0px;
 }
@@ -23,12 +31,16 @@ body{
 	padding-top: 0px;
 }
 .bigcontainer{
+	margin-top: 0px;
+	padding-top: 0px;
 	border-right-color: #8ccfd9;
 	border-right-style: solid;
 	border-right-width: 7px;
 	border-left-color: #8ccfd9;
 	border-left-style: solid;
 	border-left-width: 7px;
+	height:100%;
+	width: 100%;
 
 }
 .bigcontainer div .dir{
@@ -41,6 +53,9 @@ body{
 h1{
 	font-weight: 600;
 	font-size: 28px;
+}
+.redes{
+	margin: 20px;
 }
 ul{
 	/*margin: 0px;*/
@@ -59,6 +74,10 @@ a:hover {
 	text-decoration: none;
 	color: white;
 	font-weight: 800;
+}
+
+header div #consultora{
+	margin-top: 40px !important;
 }
 
 .menino{
@@ -172,6 +191,16 @@ a:hover {
     background-color: white;
 } 
 
+.redeimg{
+	padding-left: 5px;
+	padding-right: 5px;
+	vertical-align: middle;
+}
+.redinha{
+	vertical-align: top;
+	text-align: center;
+
+}
 .logo{
 	background-image: url("../images/Logo.jpg"); 
 	background-size: 100px 100px;
