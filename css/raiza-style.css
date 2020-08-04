@@ -8,19 +8,21 @@
 
 body{
 	background-color: white;
-	font-size: 16px;
+	font-size: 20px;
+	font-weight: 550;
 	font-family:  'Nunito Sans', sans-serif;
 	color: #757878;
+
 	
 }
-.umm{
-	background-color: red;
-	height: 100%;
-	width: 30px;
 
+.navbar{
+	padding-bottom: 0px !important;
 }
 
-
+.serv{
+	padding-top: 40px !important;
+}
 .row{
 	padding-top: 0px;
 }
@@ -30,16 +32,19 @@ body{
 	padding-bottom:0px;
 	padding-top: 0px;
 }
-.bigcontainer{
-	margin-top: 0px;
-	padding-top: 0px;
+.margem{
+	width: 100%;
+	height: 100%;
 	border-right-color: #8ccfd9;
 	border-right-style: solid;
 	border-right-width: 7px;
 	border-left-color: #8ccfd9;
 	border-left-style: solid;
 	border-left-width: 7px;
-	height:100%;
+}
+.bigcontainer{
+	margin-top: 0px;
+	padding-top: 0px;
 	width: 100%;
 
 }
@@ -53,15 +58,18 @@ body{
 h1{
 	font-weight: 600;
 	font-size: 28px;
+	color: #434343;
 }
 .redes{
-	margin: 20px;
+	margin-top: 20px;
+	padding-bottom: 20px;
 }
 ul{
 	/*margin: 0px;*/
 	padding-inline-start: 0px !important;
 	margin-block-start: 0px;
     margin-block-end: 0px;
+
 }
 
 }
@@ -123,16 +131,11 @@ header div #consultora{
     transform: translatex(-50%); 
     border-bottom-width: 1px;
 	border-bottom-style: solid;
-	border-color: #b6b6b6;
+	border-bottom-color: #b6b6b6;
 	width: 100% !important;
 	color: #757878;
 	box-shadow: 0 .5rem 1rem !important;
-	border-right-color: #8ccfd9;
-	border-right-style: solid;
-	border-right-width: 7px;
-	border-left-color: #8ccfd9;
-	border-left-style: solid;
-	border-left-width: 7px;
+	
 
 }
 
@@ -148,6 +151,12 @@ header div #consultora{
 }
 .branco{
 	background-color: white;
+	/*border-right-color: #8ccfd9;
+	border-right-style: solid;
+	border-right-width: 7px;
+	border-left-color: #8ccfd9;
+	border-left-style: solid;
+	border-left-width: 7px;*/
 }
 
 .treta:hover{
@@ -158,13 +167,19 @@ header div #consultora{
 	color: #8ccfd9 !important;
 	background-color: white;
 }
+.atifa{
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	color: #757878 !important;
+	background-color: #8ccfd9;
+}
 
 .active{
 
 	color: #757878 !important;
 	font-weight: bold;
 	border-color: white !important;
-	font-size: 22px;
+	font-size: 16px;
 }
 
 .active1{
@@ -202,12 +217,8 @@ header div #consultora{
 
 }
 .logo{
-	background-image: url("../images/Logo.jpg"); 
-	background-size: 100px 100px;
-	background-repeat: no-repeat;
-	background-position: top center;
-	background-color: white;
-	padding-top: 7px
+	
+	padding-top: 7px !important;
 }
 .logo-white{
 	padding-right: 40px;
@@ -215,8 +226,8 @@ header div #consultora{
 	padding-bottom: 20px;
 }
 .descreve{
-	margin-top: 200px;
-	padding-top: 10px;
+	margin-top: 100px;
+	padding-top: 100px;
 	padding-bottom: 15px;
 
 }
