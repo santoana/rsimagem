@@ -64,6 +64,9 @@ h1{
 	margin-top: 20px;
 	padding-bottom: 20px;
 }
+.imagem{
+	padding-bottom: 25px;
+}
 ul{
 	/*margin: 0px;*/
 	padding-inline-start: 0px !important;
