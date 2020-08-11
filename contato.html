@@ -22,7 +22,7 @@
       <div class="branco">
         <div class="fluid-container clearfix">
           
-          <nav class="navbar fixed-top flex-column navbar-expand-lg branco row">
+          <nav class="navbar fixed-top flex-column navbar-expand-lg branco row navbar-light">
             
             <section>
               <a class="" href="site Raiza.html">
@@ -40,8 +40,8 @@
                 <li class="nav-item col-lg-2 col-md-12 branco">
                   <a class="nav-link treta flex-lg-fill text-lg-center" href="site Raiza.html">HOME</a>
                   </li>
-                  <li class="nav-item col-lg-2 col-md-12 branco  active">
-                    <a class="nav-link treta flex-lg-fill text-lg-center" href="consultora.html">A CONSULTORA<span class="sr-only">(Página atual)</span></a>
+                  <li class="nav-item col-lg-2 col-md-12 branco ">
+                    <a class="nav-link treta flex-lg-fill text-lg-center" href="consultora.html">A CONSULTORA</a>
                   </li>
                 
                   <li class="nav-item dropdown dropdown col-lg-4 col-md-12 branco">
@@ -55,8 +55,8 @@
                   <li class="nav-item col-lg-2 col-md-12 branco">
                     <a class="nav-link treta flex-lg-fill text-lg-center" href="depoimentos.html">DEPOIMENTOS</a>
                 </li>
-                <li class="nav-item col-lg-2 col-md-12 branco">
-                    <a class="nav-link treta flex-lg-fill text-lg-center" href="#">CONTATO</a>
+                <li class="nav-item col-lg-2 col-md-12 branco active">
+                    <a class="nav-link treta flex-lg-fill text-lg-center" href="contato.html">CONTATO <span class="sr-only">(Página atual)</span></a>
                 </li>
             
               </ul>
@@ -75,26 +75,39 @@
       </center>
       </header>
       <div class="descreve container">
-        <h1 id="consultora">SOBRE A CONSULTORA</h1>
-        <div class=""><img src="images/consultora.PNG" height="218" width="285" class="img-fluid mx-auto d-block border border-secondary" id=""></div>
-        <br>
-        <br>
-        <div class="mx-auto" >
+        <h1 id="consultora">ENTRE EM CONTATO</h1>
+        
+
+        <div class="mx-auto row ctn-ctt" >
           
-          <div>Texto breve tralalá, pra chamar a atenção! Deixar o usuário curioso, E FAZÊ-LO ENTRAR EM CONTATO.<br>
-          Texto completo tralalá, pra chamar a atenção! Deixar o usuário curioso, E FAZÊ-LO ENTRAR EM CONTATO.<br>
-          Texto completo tralalá, pra chamar a atenção! Deixar o usuário curioso, E FAZÊ-LO ENTRAR EM CONTATO.<br>
-          Texto completo tralalá, pra chamar a atenção! Deixar o usuário curioso, E FAZÊ-LO ENTRAR EM CONTATO.<br>
-          Texto completo tralalá, pra chamar a atenção! Deixar o usuário curioso, E FAZÊ-LO ENTRAR EM CONTATO.<br>
-          Texto completo tralalá, pra chamar a atenção! Deixar o usuário curioso, E FAZÊ-LO ENTRAR EM CONTATO.<br>
-          Texto completo tralalá, pra chamar a atenção! Deixar o usuário curioso, E FAZÊ-LO ENTRAR EM CONTATO.<br>
-          Texto completo tralalá, pra chamar a atenção! Deixar o usuário curioso, E FAZÊ-LO ENTRAR EM CONTATO.</div>
-          <br>
-          <div><a href="#" class="active1">Entre em contato!</a></div>
+          <form action="/pagina-processa-dados-do-form" method="post">
+            <div class="contatim col-sm-12 col-md-7 col-lg-7 float-sm-left">
+              <label for="nome" class="item-ctn">*Nome:</label>
+              <input type="text" id="nome" />
+            </div>
+            <div class="contatim col-sm-12 col-md-5 col-lg-5 float-sm-left">
+              <label for="telefone" class="item-ctn">Telefone:</label>
+              <input type="text" id="telefone" />
+            </div>
+            <div class="contatim col-sm-12 col-md-6 col-lg-6 float-sm-left">
+              <label for="cidade" class="item-ctn">*Cidade:</label>
+              <input type="text" id="cidade" />
+            </div>
+            <div class="contatim col-sm-12 col-md-6 col-lg-6 float-sm-left">
+              <label for="email" class="item-ctn">*E-mail:</label>
+              <input type="email" id="email" />
+            </div>
+            <div class="contatim col-sm-12 col-md-12 col-lg-12">
+              <label for="msg" class="item-ctn">Mensagem:</label> <br>
+              <textarea id="msg"></textarea>
+            </div>
+              <button type="button" class="btn btn-secondary shadow-lg">Enviar</button>
+            </div>
+          </form>
         </div>
       </div> 
       <div class="container " >
-        <h1 class="redinha">ACOMPANHE MEU TRABALHO NAS REDES SOCIAIS</h1>
+        <h1 class="redinha">ENTRE EM CONTATO PELAS NOSSAS REDES SOCIAIS</h1>
       
         <div class="d-block redes d-flex justify-content-center mx-auto redinha">
           <a href=""><img src="images/linkedin-cinza.png" height="61" width="61" alt="" class="img-fluid redeimg"></a>

@@ -15,13 +15,49 @@ body{
 
 	
 }
+form{
+	width: 100%;
+}
+input{
+	border-bottom: none;
+	border-right: none;
+	border-top: none;
+	border-left: none;
+	width: 80%; 
+}
+#telefone{
+	width: 70% !important;
+}
+textarea{
+	width: 100%;
+	height: 80px;
+	border: 1px #b6b6b6 solid;
+	border-radius: 10px !important;
+	
+}
+.ctn-ctt{
+	padding: 15px !important;
+	border: 1px #b6b6b6 solid;
+	border-radius: 15px !important;
+	font-weight: bold;
+}
+.contatim{
+	text-align: left;
 
+}
+.item-ctn{
+	float: left;
+	clear: both;
+}
 .navbar{
 	padding-bottom: 0px !important;
 }
 
 .serv{
 	padding-top: 40px !important;
+}
+#f1{
+	margin-left: 0px !important;
 }
 .row{
 	padding-top: 0px;
@@ -57,8 +93,13 @@ body{
 }
 h1{
 	font-weight: 600;
-	font-size: 28px;
+	font-size: 23px;
 	color: #434343;
+}
+.incorporado{
+	height: auto;
+	clear: both;
+	padding-bottom: 30px;
 }
 .redes{
 	margin-top: 20px;
@@ -160,6 +201,10 @@ header div #consultora{
 	border-left-color: #8ccfd9;
 	border-left-style: solid;
 	border-left-width: 7px;*/
+}
+.btn-secondary{
+	margin-left: 15px !important;
+
 }
 
 .treta:hover{
@@ -439,7 +484,7 @@ a{
 }
   
  	#ajust{
-		margin-top: 30px;
+		margin-top: 0px;
 	}
  	#img-a{
 		margin-top: 30px;
